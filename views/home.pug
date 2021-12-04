@@ -1,0 +1,32 @@
+style.
+  nav.navbar.navbar-expand-md.navbar-red {
+    background-color: rgba(227,65,64,255);
+  }
+  img.holiday-logo {
+    position: absolute;
+    left: 57.5%;
+    margin-left: -190px !important;  /* 50% of your logo width */
+    display: block;
+    top: 150px;
+  }
+  h1.display-5.fw-bold {
+    margin-bottom: 475px;
+  }
+
+doctype 
+html(lang="en")
+    title Apple
+    head
+        include ./includes/header.pug
+        include ./includes/navbar.pug
+        nav.navbar.navbar-expand-md.navbar-red
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbar', aria-controls='navbar', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbar.collapse.navbar-collapse.justify-content-md-center
+                .navbar-nav.text-center
+                .text-light Shop early for the best selection of holiday favorites. 
+                a.nav-link.text-light(href='/status') Shop now >
+        img.holiday-logo(src='https://cdn.discordapp.com/attachments/828495924354482208/916821991548399626/logo__dcojfwkzna2q_small_2x.png')
+        .jumbotron.text-center.text-dark.middle-align-text
+            h1.display-5.fw-bold Let the holidays be for everyone.       
+                    

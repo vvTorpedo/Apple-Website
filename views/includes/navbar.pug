@@ -1,0 +1,72 @@
+style.
+    a.btn.btn-outline-1 {
+    background: #ffffff
+  }
+  a.btn.btn-outline-2 {
+    background: #C51BE1
+  }
+  nav.navbar.navbar-expand-md.navbar-dark.bg-dark-max.dark {
+    background-color: #000000;
+  }
+  img.logo {
+    position: absolute;
+    left: 35%;
+    margin-left: -190px !important;  /* 50% of your logo width */
+    display: block;
+    top: 18px;
+  }
+  i.fas.fa-search.pl-2.search {
+    position: absolute;
+    left: 100%;
+    margin-left: -475px !important;  /* 50% of your logo width */
+    display: block;
+    top: 22px;
+  }
+  i.fas.fa-shopping-bag.pl-2.bag {
+    position: absolute;
+    left: 100%;
+    margin-left: -430px !important;  /* 50% of your logo width */
+    display: block;
+    top: 21px;
+  }
+  nav.navbar.navbar-expand-md.navbar-dark.bg-dark-max.dark {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+doctype 
+html(lang="en")
+    head
+        include ./header.pug
+        nav.navbar.navbar-expand-md.navbar-dark.bg-dark-max.dark
+            a.navbar-brand(href='/')
+                img.logo(src=`https://cdn.discordapp.com/attachments/828495924354482208/916822349049909308/image_2021-12-04_164316_18x21.png`)
+            a(href='https://example.com')
+                i.fas.fa-search.pl-2.search.text-light
+            a(href='https://example.com')
+                i.fas.fa-shopping-bag.pl-2.bag.text-light
+    
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbar', aria-controls='navbar', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbar.collapse.navbar-collapse.justify-content-md-center
+                .navbar-nav.text-center
+                a.nav-link.text-light(href='/store')
+                    span.col-xl-md6 Store
+                a.nav-link.text-light(href='/discord', target='_blank')
+                    span.col-xl-md6 Mac
+                a.nav-link.text-light(href='/status')
+                    span.col-xl-md6 iPad
+                a.nav-link.text-light(href='/docs') 
+                    span.col-xl-md6 iPhone
+                a.nav-link.text-light(href='/invite', target='_blank')
+                    span.col-xl-md6 Watch
+                a.nav-link.text-light(href='/premium')
+                    span.col-xl-md6 AirPods
+                a.nav-link.text-light(href='/premium')
+                    span.col-xl-md6 TV & Home
+                a.nav-link.text-light(href='/premium')
+                    span.col-xl-md6 Only on Apple
+                a.nav-link.text-light(href='/premium')
+                    span.col-xl-md6 Accessories
+                a.nav-link.text-light(href='/premium')
+                    span.col-xl-md6 Support
+                
+                    
