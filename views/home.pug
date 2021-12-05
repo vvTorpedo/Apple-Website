@@ -7,11 +7,77 @@ style.
     left: 57.5%;
     margin-left: -190px !important;  /* 50% of your logo width */
     display: block;
-    top: 150px;
+    top: 140px;
   }
-  h1.display-5.fw-bold {
-    margin-bottom: 475px;
+  h1.display-7.first.fw-bold {
+    font-size: 60px;
   }
+  a.nav-link.shop-gifts {
+    font-size: 20px;
+  }
+  .rotate {
+  animation: rotation 350s infinite linear;
+    }
+
+    @keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+    }
+    h1.display-7.second.fw-bold {
+        font-size: 60px;
+    }
+    h1.display-7.third.fw-bold {
+        font-size: 60px;
+    }
+    p.lead.first {
+        font-size: 30px;
+    }
+    .navlink-center { 
+        width: 100%; 
+        text-align: center; 
+    }
+    a.nav-link.shop-learnmore-iphone-13 {
+        position: absolute;
+        left: 53%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        font-size: 20px;
+    }
+    a.nav-link.shop-buy-iphone-13 {
+        position: absolute;
+        left: 63%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        font-size: 20px;
+    }
+    img.iphone-13-pro {
+        position: absolute;
+        left: 43%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        top: 1300px;
+    }
+    img.iphone-13 {
+        position: absolute;
+        left: 43%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        top: 1500px;
+    }
+    .jumbotron.text-center.text-dark.middle-align-text.bg-dark {
+        position: absolute;
+        left: 43%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        top: 1500px;
+    }
+    nav.navbar.navbar-expand-md.navbar-red {
+        top: 55px;
+    }
 
 doctype 
 html(lang="en")
@@ -28,5 +94,26 @@ html(lang="en")
                 a.nav-link.text-light(href='/status') Shop now >
         img.holiday-logo(src='https://cdn.discordapp.com/attachments/828495924354482208/916821991548399626/logo__dcojfwkzna2q_small_2x.png')
         .jumbotron.text-center.text-dark.middle-align-text
-            h1.display-5.fw-bold Let the holidays be for everyone.       
-                    
+            h1.display-7.first.fw-bold ‎ 
+            h1.display-7.first.fw-bold ‎ 
+            h1.display-7.first.fw-bold Let the holidays be for everyone.        
+            a.nav-link.shop-gifts(href='/shop/goto/gifts') Shop gifts > 
+            img.holiday-ipad-pro.rotate(src='https://cdn.discordapp.com/attachments/828495924354482208/916842866771382282/ipad__bq6djchifrbm_mediumtall_2x.png')
+            img.holiday-airpods.rotate(src='https://cdn.discordapp.com/attachments/828495924354482208/916841194108104724/airpods__b0941p5gmwj6_mediumtall_2x.png')
+            img.holiday-pencil.rotate(src='https://cdn.discordapp.com/attachments/828495924354482208/916841938240553010/ipadair__fkr21evsr6a2_mediumtall_2x.png')
+        .jumbotron.text-center.text-dark.middle-align-text.bg-transparent
+            h1.display-7.second.fw-bold ‎ 
+            h1.display-7.second.fw-bold iPhone 13 Pro
+            p.lead.first Oh. So. Pro.
+            nav.nav
+                a.nav-link.shop-learnmore-iphone-13(href='/shop/goto/gifts') Learn More > 
+                a.nav-link.shop-buy-iphone-13(href='/shop/goto/gifts') Buy > 
+                img.iphone-13-pro(src='https://cdn.discordapp.com/attachments/828495924354482208/916851064014266368/image_2021-12-04_183722-removebg-preview.png')
+        .jumbotron.text-center.text-dark.middle-align-text.bg-dark
+            h1.display-7.third.fw-bold ‎ 
+            h1.display-7.third.fw-bold iPhone 13
+            p.lead.first Your new superpower. 
+            nav.nav
+                a.nav-link.shop-learnmore-iphone-13(href='/shop/goto/gifts') Learn More > 
+                a.nav-link.shop-buy-iphone-13(href='/shop/goto/gifts') Buy > 
+                img.iphone-13(src='')
