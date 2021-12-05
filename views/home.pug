@@ -158,10 +158,107 @@ style.
     }
     p.lead.fifth {
         position: absolute;
-        left: 30%;
+        left: 29.5%;
         margin-left: -190px !important;  /* 50% of your logo width */
         display: block;
-        top: 2690px;
+        top: 2650px;
+    }
+    a.nav-link.shop-learnmore-macbook {
+        position: absolute;
+        left: 29.35%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        font-size: 18px;
+        top: 2680px
+    }
+    a.nav-link.shop-buy-macbook {
+        position: absolute;
+        left: 36.3%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        font-size: 18px;
+        top: 2680px;
+    }
+    img.homepod {
+        position: absolute;
+        left: 13.5%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        top: 3300px;
+    }
+    h1.display-7.sixth.fw-bold {
+        position: absolute;
+        left: 28.5%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        top: 3174px;
+    }
+    p.lead.sixth {
+        position: absolute;
+        left: 29.5%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        top: 2650px;
+    }
+    a.nav-link.shop-learnmore-homepod {
+        position: absolute;
+        left: 29.35%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        font-size: 18px;
+        top: 3225px
+    }
+    a.nav-link.shop-buy-homepod {
+        position: absolute;
+        left: 36.3%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        font-size: 18px;
+        top: 3225px;
+    }
+    img.watch {
+        position: absolute;
+        left: 67%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        top: 3400px;
+    }
+    h1.display-7.seventh.fw-bold {
+        position: absolute;
+        left: 28.5%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        top: 3174px;
+    }
+    p.lead.seventh {
+        position: absolute;
+        left: 77%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        top: 3250px;
+    }
+    a.nav-link.shop-learnmore-watch {
+        position: absolute;
+        left: 79.45%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        font-size: 18px;
+        top: 3275px
+    }
+    a.nav-link.shop-buy-watch {
+        position: absolute;
+        left: 86%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        font-size: 18px;
+        top: 3275px;
+    }
+    img.watchlogo {
+        position: absolute;
+        left: 78.5%;
+        margin-left: -190px !important;  /* 50% of your logo width */
+        display: block;
+        top: 3150px;
     }
 doctype 
 html(lang="en")
@@ -215,4 +312,20 @@ html(lang="en")
                     a.nav-link.shop-learnmore-macbook(href='/shop/goto/gifts') Learn More > 
                     a.nav-link.shop-buy-macbook(href='/shop/goto/gifts') Buy > 
                     img.macbook(src='https://cdn.discordapp.com/attachments/828495924354482208/916914028398391326/image_2021-12-04_224736-removebg-preview.png')
+        .container
+            h1.display-7.sixth.fw-bold HomePod mini
+            p.lead.sixth 
+            .jumbotron.text-center.text-dark.middle-align-text.bg-transparent
+                nav.nav
+                    a.nav-link.shop-learnmore-homepod(href='/shop/goto/gifts') Learn More > 
+                    a.nav-link.shop-buy-homepod(href='/shop/goto/gifts') Buy > 
+                    img.homepod(src='https://cdn.discordapp.com/attachments/828495924354482208/916924980065873942/unknown.png')
+        .container
+            .jumbotron.text-center.text-dark.middle-align-text.bg-transparent
+                nav.nav
+                    img.watchlogo(src='https://cdn.discordapp.com/attachments/828495924354482208/916926770505216010/unknown.png')
+                    p.lead.seventh Introducing our largest display yet.
+                    a.nav-link.shop-learnmore-watch(href='/shop/goto/gifts') Learn More > 
+                    a.nav-link.shop-buy-watch(href='/shop/goto/gifts') Buy > 
+                    img.watch(src='https://cdn.discordapp.com/attachments/828495924354482208/916925709161758721/unknown.png')
         include ./includes/footer.pug
